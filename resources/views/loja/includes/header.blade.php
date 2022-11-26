@@ -19,8 +19,14 @@
             Whatsapp
         </a>
           <a class="nav-link social-icons" href="#">
-            <i class="fa-brands fa-instagram"></i>
+            {{-- <i class="fa-brands fa-instagram"></i> --}}
+            <img src="{{ asset('loja/img/insta.svg') }}" height="16" width="22" alt="MDB Logo" loading="lazy" style="margin-top: -1px;">
             Instagram
+        </a>
+        <a class="nav-link social-icons" href="#">
+            {{-- <i class="fa-brands fa-instagram"></i> --}}
+            <img src="{{ asset('loja/img/phone.svg') }}" height="16" width="22" alt="MDB Logo" loading="lazy" style="margin-top: -1px;">
+            +351 938 077 852 
         </a>
           <a class="nav-link disabled">Disabled</a>
         </div>

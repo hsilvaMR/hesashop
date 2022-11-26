@@ -12,7 +12,7 @@ class Home extends Controller
     public function testApp()
     {
         // headTitulo
-        $this->dados['headTitulo'] = "Home-Loja";
+        $this->dados['headTitulo'] = "Hesashop";
         $this->dados['headDescricao'] = "Home";
         $this->dados['headFoto'] = asset('/img/imgs/fb-mredis.jpg');
 

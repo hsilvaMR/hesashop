@@ -10,9 +10,18 @@
         <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
           <a class="nav-link" href="#">pesquisar</a>
-          <a class="nav-link" href="#">facebook</a>
-          <a class="nav-link" href="#">whatsapp</a>
-          <a class="nav-link" href="#">instagramv1</a>
+          <a class="nav-link social-icons" href="#">
+            <i class="fa-brands fa-square-facebook"></i>
+            Facebook
+        </a>
+          <a class="nav-link social-icons" href="#">
+            <i class="fa-brands fa-whatsapp"></i>
+            Whatsapp
+        </a>
+          <a class="nav-link social-icons" href="#">
+            <i class="fa-brands fa-instagram"></i>
+            Instagram
+        </a>
           <a class="nav-link disabled">Disabled</a>
         </div>
       </div>

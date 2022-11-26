@@ -13,6 +13,35 @@ body {
 
     background: rgba(250, 250, 250, 0.32);
     backdrop-filter: blur(50px);
-    width: 1440px;
-    height: 88px;
+    /* width: 1440px;
+    height: 88px; */
+}
+
+/* FACEBOOK SETING ICONE */
+.social-icons .fa-square-facebook {
+    left: 0%;
+    right: 0%;
+    top: 6.25%;
+    bottom: 6.25%;
+    color: #4267B2;
+    padding-right: 8px;
+}
+/* WHATSAPP SETING ICONE */
+.social-icons .fa-whatsapp {
+    left: 0%;
+    right: 0%;
+    top: 6.25%;
+    bottom: 6.25%;
+    color: #34AF23;
+    ;
+    padding-right: 8px;
+}
+/* Instagram SETING ICONE */
+.social-icons .fa-instagram {
+    left: 0%;
+    right: 0%;
+    top: 6.25%;
+    bottom: 6.25%;
+    background: radial-gradient(95.45% 95.45% at 2.26% 97.73%, #FDF497 0%, #FDF497 5.65%, #FD5949 44.57%, #D6249F 55.73%, #2854EB 90.38%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    padding-right: 8px;
 }

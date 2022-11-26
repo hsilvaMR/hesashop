@@ -12,7 +12,7 @@
           <a class="nav-link" href="#">pesquisar</a>
           <a class="nav-link" href="#">facebook</a>
           <a class="nav-link" href="#">whatsapp</a>
-          <a class="nav-link" href="#">instagram</a>
+          <a class="nav-link" href="#">instagramv1</a>
           <a class="nav-link disabled">Disabled</a>
         </div>
       </div>

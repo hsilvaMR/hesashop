@@ -19,9 +19,10 @@
                     {{-- formulario newsletter --}}
 
                     <div class="row form-subscrever">
-                          {{-- field text --}}
+                        {{-- field text --}}
                         <div class="col-xl-8 box-field-newsletter ">
-                            <input type="text" id="txtPesquisa" placeholder="EX. mail@domain.com" aria-required="true">
+                            <input type="text" id="txtSubscrever" placeholder="EX. mail@domain.com"
+                                aria-required="true">
                         </div>
                         {{-- btn subscrerver --}}
                         <div class="col-xl-3 box-btn-newsletter">
@@ -31,12 +32,6 @@
                         </div>
                     </div>
 
-                    {{-- <div class="d-flex justify-content-start align-items-center box-subscrever">
-                        <input type="text" id="txtPesquisa" placeholder="EX. mail@domain.com" aria-required="true">
-                    </div>
-                    <div class="p-2 btn-subscrever">
-                        <span>SUBSCREVER</span>
-                    </div> --}}
                 </div>
                 <!-- Grid column -->
 
@@ -110,13 +105,62 @@
             </div>
             <!-- Grid row -->
         </div>
+
+        {{--   metodos de pagamentos  --}}
+        <div class="container border-bottom border-2">
+
+            <div class="row">
+
+                <div class="col-xl-9 text-start mt-3 ">
+                    <div class="d-flex mb-3">
+                        {{-- visa --}}
+                        <div class="p-2">
+                            <img src="{{ asset('loja/img/visa.svg') }}" height="60" width="100" alt="MDB Logo"
+                                loading="lazy" style="margin-top: -1px;">
+                        </div>
+                        {{-- mastercard --}}
+                        <div class="p-2">
+                            <img src="{{ asset('loja/img/mastercard.svg') }}" height="60" width="100"
+                                alt="MDB Logo" loading="lazy" style="margin-top: -1px;">
+                        </div>
+                        {{-- mbway --}}
+                        <div class="p-2">
+                            <img src="{{ asset('loja/img/mbway.svg') }}" height="60" width="100" alt="MDB Logo"
+                                loading="lazy" style="margin-top: -1px;">
+                        </div>
+                        {{-- paypal --}}
+                        <div class="p-2">
+                            <img src="{{ asset('loja/img/paypal.svg') }}" height="60" width="100" alt="MDB Logo"
+                                loading="lazy" style="margin-top: -1px;">
+                        </div>
+                    </div>
+                </div>
+                {{--  IDIOMA --}}
+                <div class="col-xl-2 text-end mt-3 ">
+                    <div class="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
+                          IDIOMA
+                          <img src="{{ asset('loja/img/ptBandeira.svg') }}" height="30" width="30" alt="MDB Logo"
+                          loading="lazy" style="margin-top: -1px;">
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                          <li><button class="dropdown-item" type="button">PT</button></li>
+                          <li><button class="dropdown-item" type="button">EN</button></li>
+                          <li><button class="dropdown-item" type="button">FR</button></li>
+                        </ul>
+                      </div>
+                </div>
+
+            </div>
+
+        </div>
     </section>
     <!-- Section: Links  -->
 
     <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-        © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <div class="container text-start mt-2" style=" color:#2256F7">
+        © 2022 Copyright:
+        <a class="text-reset " href="https://hesashop.com/">hesashop.com Todos Direitos Reservados</a>
     </div>
     <!-- Copyright -->
 </footer>

@@ -163,11 +163,16 @@
 
 .catFooter p {
 
-    font-size: 14px;
+    font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.75px;
     /* text-transform: uppercase; */
     color: #FCFCFC;
+}
+
+.catFooter i{
+    /* color: white; */
+    color: #FCFCFC !important;
 }
 
 .form-subscrever .box-field-newsletter{

@@ -190,4 +190,14 @@
     border-radius: 2px;
     color: #383838;
     margin-left: 2.5%;
+    cursor: pointer;
+}
+
+.form-subscrever .box-btn-newsletter span{ 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #383838;
 }

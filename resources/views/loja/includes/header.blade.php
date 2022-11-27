@@ -7,15 +7,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                {{-- <a class="nav-link active" aria-current="page" href="#">Home</a> --}}
                 {{-- caixa de pesquisa --}}
                 <a class="nav-link" href="#">
                     <div class="d-flex justify-content-start align-items-center box-pesquisa">
                         <img src="{{ asset('loja/img/search.svg') }}" height="16" width="22" alt="MDB Logo"
                         loading="lazy" style="margin-top: -1px;">
                         {{-- field text --}}
-                        <input type="text" placeholder="EX. Iphone 13 Pro 64 GB" aria-required="true">
+                        <input type="text" id="txtPesquisa" placeholder="EX. Iphone 13 Pro 64 GB" aria-required="true">
+                        {{-- botao pesquisa --}}
+                        <div class="p-2 btn-pesquisa">
+                            <span>PESQUISAR</span> 
+                        </div>
                     </div>
+                    
                 </a>
                 <a class="nav-link social-icons" href="#">
                     <i class="fa-brands fa-square-facebook"></i>

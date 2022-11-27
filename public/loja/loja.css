@@ -52,26 +52,51 @@ body {
 
 .box-pesquisa {
 
-    width: 388px;
+    width: 450px;
     height: 35px;
     left: 305px;
     top: 8px;
     background: #FCFCFC;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
-
 }
 
-.box-pesquisa img{
+.btn-pesquisa {
+    width: 104px;
+    height: 35px;
+    background: #2256F7;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
 
-  margin-left: 3.5%;
-  cursor: none;
+.btn-pesquisa span {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.75px;
+    /* text-transform: uppercase; */
+    color: #FCFCFC;
+    padding-bottom: 24px;
+    height: 23px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.box-pesquisa img {
+
+    margin-left: 3.5%;
+    cursor: none;
 }
 
 .box-pesquisa input[type="text"] {
-    width: 240px;
+    width: 350px;
     background: none;
     outline: none;
     border: none;
     margin-left: 3.5%;
 }
+
+/* ********************* FOOTER ************************ */

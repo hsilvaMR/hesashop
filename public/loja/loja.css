@@ -163,11 +163,24 @@
 
 .catFooter p {
 
-    font-size: 12px;
+    font-size: 13px;
     line-height: 16px;
     letter-spacing: 0.75px;
     /* text-transform: uppercase; */
     color: #FCFCFC;
+    padding-left: 0px;
+}
+
+.catFooter h5 {
+
+    /* font-size: 14px; */
+    line-height: 28px;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 2px; */
+    color: #FCFCFC;
+    margin-left: -12px;
+    padding-bottom: 16px;
+
 }
 
 .catFooter i{
@@ -205,4 +218,17 @@
     line-height: 16px;
     letter-spacing: 0.4px;
     color: #383838;
+}
+
+.idioma  .btn{
+
+    background: none;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none;
+}
+
+.idioma  .btn  span {
+
+    color: #FCFCFC;
 }

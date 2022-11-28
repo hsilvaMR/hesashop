@@ -7,15 +7,15 @@
             <!-- Grid row -->
             <div class="row mt-3 catFooter">
                 <!-- Grid newsletter -->
-                <div class="col-md-3 col-lg-4 col-xl-4 mx-auto mb-4 mt-4">
+                <div class="col-md-3 col-lg-4 col-xl-4 mx-auto mb-4 mt-4 p-0">
                     <!-- Content -->
                     <h6 class="text-uppercase fw-bold mb-4">
                         <img src="{{ asset('loja/img/newslettersvg.svg') }}" height="100" width="149" alt="MDB Logo"
                             loading="lazy" style="margin-top: -1px;">
                     </h6>
-                    <p>
-                        Subscreva a Nossa Newsletter Para Ficar a Par de todas as Novidades Promoções e Muito Mais
-                    </p>
+                    <h5 class="text-start">
+                        Subscreva a Nossa Newsletter Para Ficar a Par de todas as Novidades Promoções, e Muito Mais.
+                    </h5>
                     {{-- formulario newsletter --}}
 
                     <div class="row form-subscrever">
@@ -106,42 +106,44 @@
             <!-- Grid row -->
         </div>
 
-        {{--   metodos de pagamentos  --}}
+        {{--   metodos de pagamentos  | idioma --}}
         <div class="container border-bottom border-2">
 
             <div class="row">
 
-                <div class="col-xl-9 text-start mt-3 ">
-                    <div class="d-flex mb-3">
+                <div class="col-xl-9 text-start mt-1 p-0">
+
+                    <h6 class="mt-1"style="color:#FCFCFC;">Métodos de Pagamento</h6>
+                    <div class="d-flex mb-1">
                         {{-- visa --}}
-                        <div class="p-2">
-                            <img src="{{ asset('loja/img/visa.svg') }}" height="60" width="100" alt="MDB Logo"
-                                loading="lazy" style="margin-top: -1px;">
+                        <div class="p-1">
+                            <img src="{{ asset('loja/img/visa.svg') }}" height="60" width="60" alt="MDB Logo"
+                                loading="lazy" >
                         </div>
                         {{-- mastercard --}}
-                        <div class="p-2">
-                            <img src="{{ asset('loja/img/mastercard.svg') }}" height="60" width="100"
-                                alt="MDB Logo" loading="lazy" style="margin-top: -1px;">
+                        <div class="p-1">
+                            <img src="{{ asset('loja/img/mastercard.svg') }}" height="60" width="60"
+                                alt="MDB Logo" loading="lazy" >
                         </div>
                         {{-- mbway --}}
-                        <div class="p-2">
-                            <img src="{{ asset('loja/img/mbway.svg') }}" height="60" width="100" alt="MDB Logo"
-                                loading="lazy" style="margin-top: -1px;">
+                        <div class="p-1">
+                            <img src="{{ asset('loja/img/mbway.svg') }}" height="60" width="60" alt="MDB Logo"
+                                loading="lazy" >
                         </div>
                         {{-- paypal --}}
-                        <div class="p-2">
-                            <img src="{{ asset('loja/img/paypal.svg') }}" height="60" width="100" alt="MDB Logo"
-                                loading="lazy" style="margin-top: -1px;">
+                        <div class="p-1">
+                            <img src="{{ asset('loja/img/paypal.svg') }}" height="60" width="60" alt="MDB Logo"
+                                loading="lazy" >
                         </div>
                     </div>
                 </div>
                 {{--  IDIOMA --}}
-                <div class="col-xl-2 text-end mt-3 ">
-                    <div class="dropdown">
+                <div class="col-xl-3 text-end mt-1 align-self-center">
+                    <div class="dropdown idioma">
                         <button class="btn  dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
-                          IDIOMA
+                          <span > IDIOMA </span> 
                           <img src="{{ asset('loja/img/ptBandeira.svg') }}" height="30" width="30" alt="MDB Logo"
-                          loading="lazy" style="margin-top: -1px;">
+                          loading="lazy" style="margin-top: -1px;" class="ms-2">
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
                           <li><button class="dropdown-item" type="button">PT</button></li>

@@ -163,7 +163,7 @@
 
 .catFooter p {
 
-    font-size: 13px;
+    font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.75px;
     /* text-transform: uppercase; */
@@ -173,10 +173,8 @@
 
 .catFooter h5 {
 
-    /* font-size: 14px; */
-    line-height: 28px;
-    /* text-transform: uppercase; */
-    /* letter-spacing: 2px; */
+    font-size: 15.5px;
+   
     color: #FCFCFC;
     margin-left: -12px;
     padding-bottom: 16px;

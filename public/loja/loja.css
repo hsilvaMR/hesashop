@@ -190,9 +190,16 @@
     background: linear-gradient(270deg, #17A3FB 0%, #5160FF 100%);
     border-radius: 4px 4px 0px 0px;
     color: #FCFCFC;
+    height: 54px;
 }
 
-.menu-esquerda .catTitulo img {
+.menu-esquerda .catItem {
+
+  background:  #F7F7F7 ;
+}
+
+.menu-esquerda .catTitulo img,
+.menu-esquerda .catItem img{
     float: right;
     cursor: pointer;
 }
@@ -221,3 +228,10 @@
 .menu-direita .flex-row .clientArea {
     width: 30%;
 }
+
+.menu-direita .flex-row .cursor-pointer{
+    cursor: pointer;
+}
+
+
+

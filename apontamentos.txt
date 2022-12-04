@@ -1,0 +1,9 @@
+
+
+
+==================                 ==================     
+                 CARD SLIDER | BOOTSTRAP
+==================                ==================
+
+HOW TO CREATE CARD SLIDER IN BOOTSTRAP
+https://www.youtube.com/watch?v=8g9Glz5VlZo

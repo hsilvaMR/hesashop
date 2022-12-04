@@ -54,6 +54,12 @@
                         loading="lazy">
                     </div>
                 </div>
+
+                {{-- banner Promo --}}
+                <div class="cursor-pointer bannerPromo">
+                    <img src="{{ asset('loja/img/bannerPromo.svg') }}" width="415"   class="mt-1"  >
+                </div>
+
             </div>
             {{-- menu direita  --}}
             <div class="col-8 menu-direita">
@@ -84,6 +90,10 @@
 
                 {{--  slider | Carrosel --}}
                 @include('loja/includes/carousel')
+
+                {{--  Produtos mais vendidos | Paginatios  --}}
+                @include('loja/includes/pagination')
+
 
             </div>
         </div>

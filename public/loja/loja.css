@@ -195,11 +195,11 @@
 
 .menu-esquerda .catItem {
 
-  background:  #F7F7F7 ;
+    background: #F7F7F7;
 }
 
 .menu-esquerda .catTitulo img,
-.menu-esquerda .catItem img{
+.menu-esquerda .catItem img {
     float: right;
     cursor: pointer;
 }
@@ -230,7 +230,7 @@
 }
 
 .menu-direita .flex-row .cursor-pointer,
-.menu-esquerda  .cursor-pointer{
+.menu-esquerda .cursor-pointer {
     cursor: pointer;
 }
 
@@ -238,26 +238,26 @@
 
 /* ********************* SLIDER | CARROSEUL   ************************ */
 
-.menu-direita  .carousel  .carousel-control-prev-icon,
-.menu-direita  .carousel  .carousel-control-next-icon{
+.menu-direita .carousel .carousel-control-prev-icon,
+.menu-direita .carousel .carousel-control-next-icon {
 
     visibility: hidden !important;
 }
 
 /* ********************* PAGINATION | BEST SELLER PRODUCTS   ************************ */
 
-.bestSeller ul li  {
+.bestSeller ul li {
 
     width: 26px;
     height: 26px;
-    border-radius:50%;
+    border-radius: 50%;
     background: linear-gradient(270deg, #17A3FB 0%, #5160FF 100%);
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
-    
+
     /* flex: none; */
 }
 
@@ -267,10 +267,49 @@
 }
 
 .bestSeller ul li a:hover,
-.bestSeller ul li a:active{
+.bestSeller ul li a:active {
 
-background-color: none;
- background: none;
- text-decoration: none;
- box-shadow: none;
+    background-color: none;
+    background: none;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.card-wrapper {
+    display: flex;
+}
+
+.cardBest {
+    border: 1px solid #CFCFCF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    padding: 9px;
+    margin: 0.3rem;
+}
+
+.cardBest h5 {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    background: linear-gradient(270deg, #17A3FB 0%, #5160FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+}
+
+.cardBest p {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #383838;
+}
+
+#carroselBest .carousel-control-next-icon,
+#carroselBest .carousel-control-prev-icon{
+
+    color: red;
+    bac
 }

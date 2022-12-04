@@ -92,7 +92,7 @@
                 @include('loja/includes/carousel')
 
                 {{--  Produtos mais vendidos | Paginatios  --}}
-                @include('loja/includes/pagination')
+                @include('loja/includes/cardSlider')
 
 
             </div>

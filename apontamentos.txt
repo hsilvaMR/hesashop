@@ -6,4 +6,15 @@
 ==================                ==================
 
 HOW TO CREATE CARD SLIDER IN BOOTSTRAP
+
+https://www.youtube.com/watch?v=kHPm_AlxP7U
+
+https://frontendshape.com/post/bootstrap-5-card-slider-with-splide-js-example
+
 https://www.youtube.com/watch?v=8g9Glz5VlZo
+
+==================                 ==================     
+                 CARD SLIDER | HTML CSS
+==================                ==================
+
+https://www.youtube.com/watch?v=ahfp8KTSwSU

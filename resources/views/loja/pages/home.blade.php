@@ -9,54 +9,55 @@
                 <div class="d-flex flex-column mb-3">
                     <div class="p-2 catTitulo">
                         Categoria
-                        <img src="{{ asset('loja/img/setaBaixo.svg') }} " class="mt-2" height="19" width="19"
+                        <img src="{{ asset('loja/img/setaBaixo.svg') }}"  id="hideMenu" class="mt-2" height="19" width="19"
                             loading="lazy">
                     </div>
                     <div class="p-2 catItem">
                         {{-- <i class="fa-solid fa-mobile-screen-button"></i> --}}
                         Telemóvel & Acessórios
-                        <img src="{{ asset('loja/img/setaEsq.svg') }} " class="mt-2" height="19" width="19"
+                        <img src="{{ asset('loja/img/setaDireta.svg') }} " class="mt-2" height="19" width="19"
                         loading="lazy">
                     </div>
                     <div class="p-2 catItem">
                         Tablet & Acessórios
-                        <img src="{{ asset('loja/img/setaEsq.svg') }} " class="mt-2" height="19" width="19"
+                        <img src="{{ asset('loja/img/setaDireta.svg') }} " class="mt-2" height="19" width="19"
                         loading="lazy">
                     </div>
                     <div class="p-2 catItem">
                         Relógios e Pulseiras Digitais 
-                        <img src="{{ asset('loja/img/setaEsq.svg') }} " class="mt-2" height="19" width="19"
+                        <img src="{{ asset('loja/img/setaDireta.svg') }} " class="mt-2" height="19" width="19"
                         loading="lazy">
                     </div>
                     <div class="p-2 catItem">
                         Computadores Portátel
-                        <img src="{{ asset('loja/img/setaEsq.svg') }} " class="mt-2" height="19" width="19"
+                        <img src="{{ asset('loja/img/setaDireta.svg') }} " class="mt-2" height="19" width="19"
                         loading="lazy">
                     </div>
                     <div class="p-2 catItem">
                         Computadores Desktop
-                        <img src="{{ asset('loja/img/setaEsq.svg') }} " class="mt-2" height="19" width="19"
+                        <img src="{{ asset('loja/img/setaDireta.svg') }} " class="mt-2" height="19" width="19"
                         loading="lazy">
                     </div>
                     <div class="p-2 catItem">
                         TV & Vídeo
-                        <img src="{{ asset('loja/img/setaEsq.svg') }} " class="mt-2" height="19" width="19"
+                        <img src="{{ asset('loja/img/setaDireta.svg') }} " class="mt-2" height="19" width="19"
                         loading="lazy">
                     </div>
                     <div class="p-2 catItem">
                         Som & Imagem
-                        <img src="{{ asset('loja/img/setaEsq.svg') }} " class="mt-2" height="19" width="19"
+                        <img src="{{ asset('loja/img/setaDireta.svg') }} " class="mt-2" height="19" width="19"
                         loading="lazy">
                     </div>
                     <div class="p-2 catItem">
                         Acessórios de Informática
-                        <img src="{{ asset('loja/img/setaEsq.svg') }} " class="mt-2" height="19" width="19"
+                        <img src="{{ asset('loja/img/setaDireta.svg') }} " class="mt-2" height="19" width="19"
                         loading="lazy">
                     </div>
                 </div>
             </div>
             {{-- menu direita  --}}
             <div class="col-8 menu-direita">
+
                 <div class="d-flex flex-row align-items-center">
                     <div class="p-2 text-center">
                         <img src="{{ asset('loja/img/home.svg') }}" id="imgHome" height="15" width="15" loading="lazy">
@@ -80,6 +81,10 @@
                        Carrinho <label for="" id="carTotalItem" class="pe-2 ps-2"> (0) </label>  Item(s) 
                     </div>
                 </div>
+
+                {{--  slider | Carrosel --}}
+                @include('loja/includes/carousel')
+
             </div>
         </div>
     </div>

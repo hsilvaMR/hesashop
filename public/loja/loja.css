@@ -234,4 +234,12 @@
 }
 
 
+/* ********************* SLIDER | CARROSEUL   ************************ */
+
+.menu-direita  .carousel  .carousel-control-prev-icon,
+.menu-direita  .carousel  .carousel-control-next-icon{
+
+    visibility: hidden !important;
+}
+
 

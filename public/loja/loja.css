@@ -193,6 +193,16 @@
     height: 54px;
 }
 
+.menu-esquerda .catTitulo  i{
+
+    color: #F7F7F7;
+    height: 19px;
+    width: 19px;
+    float: right;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
 .menu-esquerda .catItem {
 
     background: #F7F7F7;
@@ -309,7 +319,5 @@
 
 #carroselBest .carousel-control-next-icon,
 #carroselBest .carousel-control-prev-icon{
-
     color: red;
-    bac
 }
